@@ -1,6 +1,6 @@
 // Import Icons
 import locationIcon from "../../public/images/icons/location.svg";
-import serverIcon from "../../public/images/icons/server.svg";
+import serverIcons from "../../public/images/icons/server.svg";
 import userIcon from "../../public/images/icons/user.svg";
 import checkIcon from "../../public/images/icons/check.svg";
 import amazonIcon from "../../public/images/icons/amazon.svg";
@@ -24,7 +24,7 @@ export const headerMenuItems = [
 // Section 2: Statistics
 export const section2Stats = [
   { id: 1, name: "Location", count: "+50", icon: locationIcon },
-  { id: 2, name: "Server", count: "+30", icon: serverIcon },
+  { id: 2, name: "Server", count: "+30", icon: serverIcons },
   { id: 3, name: "User", count: "+90", icon: userIcon },
 ];
 
