@@ -1,5 +1,5 @@
 import { freePlanFeatures, basicPlanFeatures, premiumPlanFeatures } from "../../constants";
-import standard from "../../../public/images/Illustration/Standard.png";
+import standard from "../../../public/images/Standard.png";
 function Pricing() {
   return (
     <section className="overflow-hidden bg-white py-6">
