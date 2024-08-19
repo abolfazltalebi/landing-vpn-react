@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  font-family: "Syne", sans-serif;
+}
+@layer components {
+  .img-fluid {
+    @apply w-full h-auto object-cover;
+  }
+  .header {
+    @apply flex items-center justify-between p-4 bg-white/80 backdrop-blur-lg md:px-12;
+  }
+  .logo-header {
+    @apply w-full h-12 object-cover size-36;
+  }
+  .nav-menu-li {
+    @apply transition-all hover:scale-110;
+  }
+  .nav-menu-item {
+    @apply transition-all hover:text-primary hover:border-b-2 hover:border-primary py-2;
+  }
+  .sign-in-button,
+  .getStart-button,
+  .button-plan {
+    @apply px-6 py-2 text-base rounded-xl transition-all hover:bg-primary hover:text-white hover:translate-y-[-5px];
+  }
+  .download-button {
+    @apply border-2 border-primary px-6 py-2 text-base rounded-xl bg-primary text-white transition-all hover:translate-y-[-5px];
+  }
+  .hero-section,
+  .section-3 {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-12 my-12 container items-center;
+  }
+  .title-section {
+    @apply text-3xl md:text-6xl font-semibold;
+  }
+  .text-title {
+    @apply text-primary font-bold border-b-2 border-primary animate-pulse;
+  }
+  .section-2 {
+    @apply max-w-4xl bg-white p-4 rounded-xl  m-auto shadow flex items-center justify-between px-12;
+  }
+  .card-price {
+    @apply h-full p-5 bg-white rounded-lg border-2 border-gray-300 transition-all hover:border-primary hover:scale-105 flex flex-col items-center gap-6 relative overflow-hidden;
+  }
+  .title-plan {
+    @apply sm:text-4xl text-3xl font-medium  mb-2 text-gray-900;
+  }
+  .caption-plan {
+    @apply lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500;
+  }
+}
