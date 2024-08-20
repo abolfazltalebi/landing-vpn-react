@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
-import testimonials from "../../constants/index";
+import testimonials from "../../constants/Testimonials";
 const Testimonials = () => {
   return (
     <section className="my-6 py-6 container space-y-4">

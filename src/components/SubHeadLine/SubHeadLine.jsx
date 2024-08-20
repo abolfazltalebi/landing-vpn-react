@@ -1,4 +1,6 @@
-import { section2Stats } from "../../constants";
+import { section2Stats } from "../../constants/SectionState";
+import CaptionSubHeadLine from "./CaptionSubHeadLine";
+import ImageSubHedLine from "./ImageSubHedLine";
 
 function SubHeadLine() {
   return (
@@ -6,13 +8,8 @@ function SubHeadLine() {
       {section2Stats.map((items) => {
         return (
           <div className="flex items-center gap-4" key={items.id}>
-            <div>
-              <img src={items.src} alt="" />
-            </div>
-            <div>
-              <h2 className="text-xl font-bold">{items.number}</h2>
-              <p>{items.name}</p>
-            </div>
+            <ImageSubHedLine items={items}/>
+            <CaptionSubHeadLine items={items}/>
           </div>
         );
       })}

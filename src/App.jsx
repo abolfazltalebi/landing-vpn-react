@@ -6,7 +6,7 @@ import SubHeadLine from "./components/SubHeadLine/SubHeadLine";
 import Features from "./components/Features/Features";
 import Pricing from "./components/Pricing/Pricing";
 import Location from "./components/Location/Location";
-import Brands from "./components/Brands/Brands";
+import Brands from "./components/Brands";
 // import Testimonials from "./components/Testimonials/Testimonials";
 function App() {
   return (

@@ -1,4 +1,4 @@
-import { brandLogos } from "../../constants";
+import { brandLogos } from "../constants/BrandLogos";
 
 function Brands() {
   return (
