@@ -15,7 +15,7 @@ function CaptionFeature() {
             return (
               <div className="flex items-center gap-2" key={Citem.id}>
                 <div>
-                  <img src={Citem.src} alt={Citem.name} />
+                  <img src={Citem.icon} alt={Citem.name} />
                 </div>
                 <p>{Citem.name}</p>
               </div>

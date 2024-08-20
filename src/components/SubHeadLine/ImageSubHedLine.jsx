@@ -1,7 +1,7 @@
 function ImageSubHedLine({ items }) {
   return (
     <div>
-      <img src={items.src} alt="" />
+      <img src={items.icon} alt="" />
     </div>
   );
 }
